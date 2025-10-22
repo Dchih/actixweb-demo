@@ -7,6 +7,9 @@ struct Info {
   friend: String,
 }
 
+/**
+ * Path 无需设置
+ */
 #[get("/user/{user_id}/{friend}")]
 pub async fn greety(info: web::Path<Info>) -> Result<String> {
   Ok(format!(
