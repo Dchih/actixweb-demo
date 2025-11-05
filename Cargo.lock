@@ -543,6 +543,7 @@ dependencies = [
  "actix-multipart",
  "actix-web",
  "actix-web-httpauth",
+ "derive_more 0.99.20",
  "futures-util",
  "serde",
  "serde_json",

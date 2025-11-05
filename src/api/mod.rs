@@ -16,3 +16,6 @@ pub use file_other::upload_mix;
 
 mod multi_extract;
 pub use multi_extract::file_multi_extract;
+
+mod error;
+pub use error::error_handle;
